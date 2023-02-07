@@ -380,7 +380,7 @@
     </footer>
 
     <!-- Modal Window -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
                 <svg class="modal-icons-close">
@@ -425,7 +425,9 @@
                 
                 <div class="modal-form-wrapper">
                     <label for="user_comment" class="modal-form-label">Comment</label>    
-                    <textarea name="comment" class="modal-form-comment" id="user_comment" placeholder="Text input"></textarea>
+                    <div class="input-wrap">
+                        <textarea name="comment" class="modal-form-comment" id="user_comment" placeholder="Text input"></textarea>
+                    </div>
                 </div>
                 
                 
